@@ -1,0 +1,1050 @@
+*{
+    padding: 0px;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    font-family: roboto,Sans-serif;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: rgb(250, 250, 250);
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #0064c2;
+    color: white;
+    max-width: 100%;
+    max-height: 100px;
+    height: 35px;
+    text-align: center;
+}
+
+.bar h1{
+    font-family: roboto,Sans-serif;
+    font-size: 20px;
+    
+}
+
+#principal{
+    display: flex;
+    flex-direction: column;
+    background-image: url("/img/background.jpg");
+    align-items: center;
+    justify-content: center;
+    font-family: roboto,Sans-serif;
+    color: rgb(148, 148, 148);
+
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: roboto,Sans-serif;
+    color: rgb(148, 148, 148);
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+#ico{
+    width: 450px;
+    position: relative;
+    top: -50px;
+}
+
+#apresentacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #fff000;
+    color: white;
+    max-width: 100%;
+    max-height: 100px;
+    height: 100%;
+
+}
+
+#apresentacao h1{
+    background: #fff000;
+    text-align: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #ff0800;
+    width: 800px;
+    font-size: 40px;
+}
+
+#secundario{
+    background: rgb(250, 250, 250);
+}
+
+#local{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway';
+    font-size: 26px;
+    color: #ffffff;
+    font-weight:bold;
+    
+}
+
+#logo{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 200px;
+}
+
+.container h1{
+    margin-top: 30px;
+    font-size: 55px;
+    color: #302D83;
+}
+
+.container img{
+    max-height: 550px;
+
+}
+
+#baterias{
+    position:relative;
+    top: -40px;
+}
+
+/*Bot���o Pulsa*/
+.box-pulse { 
+    width:50%; 
+    margin:0 auto; padding:0 30px;
+    margin-bottom: 10px;
+    position: relative;
+    top: -60px;
+    text-decoration:none;
+    display: inline-block;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-animation: pulse 1s ease infinite;
+    -moz-animation: pulse 1s ease infinite;
+    -ms-animation: pulse 1s ease infinite;
+    -o-animation: pulse 1s ease infinite;
+    animation: pulse 1s ease infinite;
+}
+
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@-moz-keyframes pulse {
+  0% {
+    -moz-transform: scale(1);
+  }
+  25% {
+    -moz-transform: scale(1.1);
+  }
+  50% {
+    -moz-transform: scale(1);
+  }
+  100% {
+    -moz-transform: scale(1);
+  }
+}
+@-ms-keyframes pulse {
+  0% {
+    -ms-transform: scale(1);
+  }
+  25% {
+    -ms-transform: scale(1.1);
+  }
+  50% {
+    -ms-transform: scale(1);
+  }
+  100% {
+    -ms-transform: scale(1);
+  }
+}
+@-o-keyframes pulse {
+  
+  0% { -o-transform: scale(1); }
+  25% { -o-transform: scale(1.1); }
+  50% { -o-transform: scale(1); }
+  100% { -o-transform: scale(1); } 
+}
+@keyframes pulse { 
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+/*Bot���o Pulsa*/
+
+
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+
+.section2 h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bolder;
+    color: #302D83;
+
+}
+.section2 h2{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #302D83;
+
+}
+
+.baterias{
+    display: flex;
+    flex-direction: row;  
+    margin-bottom: 120px; 
+}
+
+.conteudo1{
+    width: 200px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.conteudo2{
+    margin-left: 120px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.conteudo3{
+    margin-left: 120px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.baterias img{
+    width: 110px;
+    margin-bottom: 25px;
+}
+
+.baterias h5{
+    width: 200px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.baterias p{
+    width: 200px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+.call{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    background: #f0f0f0;
+    
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    color: #302D83;
+    font-size: 20px;
+    
+}
+
+
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.botoes img{
+    width: 250px;
+
+
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #000000;
+    height: 100%;
+    position: relative;
+    top: 100px;
+    color: white;
+}
+
+.footer h3{
+    color: #fff000;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    text-align: center;
+    
+}
+
+@media (max-width: 1600px){
+    .bar{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        background: #0064c2;
+        color: white;
+        max-width: 100%;
+        max-height: 500px;
+        height: 34px;
+        text-align: center;
+    }
+    #principal{
+        background-image: url("/img/background.jpg");
+        position: relative;
+        height: 75vh;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center; 
+        color: white;
+        max-width: 100%;
+        max-height: 500px;
+
+    }
+
+    .bar h1{
+        font-size: 20px;
+    }
+
+    #apresentacao{
+       height: 34px;
+    
+    }
+
+    .container img{
+        width: 500px;
+        max-width: 100%;
+    
+    }
+
+    #apresentacao h1{
+        text-align: center;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: #ff0800;
+        font-size: 18px;
+    }
+
+    #local{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        color: #ffffff;
+    }
+    #logo{
+        width: 100px;
+        position: relative;
+        top: 10px;
+        margin-bottom: 10px;
+    }
+    #loc{
+        width: 400px;
+        position: relative;
+        top: 20;
+        margin-bottom: 10px;
+    }
+
+    #baterias{
+        position: relative;
+        top: -15px;
+    }
+    .box-pulse{
+        position: relative;
+        top: -35px;
+    }
+    #ico{
+        width: 360px;
+        position: relative;
+        top: -25px;
+    }
+
+    .baterias{
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+    }
+    .conteudo1{
+        padding-bottom: 30px;
+        margin: 0px;
+        width: 200px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .conteudo2{
+
+        padding-bottom: 30px;
+        margin-left: 80px;
+        width: 200px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .conteudo3{
+        padding-bottom: 30px;
+        margin-left: 80px;
+        width: 200px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+
+    .conteudo h3{
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .botoes{
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .rodape{
+        padding-top: 20px;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+
+@media (max-width: 920px){
+    .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .container #designer{
+        width: 500px;
+        height: 150px;
+        max-width: 100%;
+        
+    }
+    .container #coder{
+        width: 500px;
+        height: 150px;
+        max-width: 100%;
+        margin: 0px;
+    
+    }
+}
+
+
+@media (max-width: 1380px){
+    .bar{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        background: #0064c2;
+        color: white;
+        max-width: 100%;
+        max-height: 500px;
+        height: 34px;
+        text-align: center;
+    }
+    #principal{
+        background-image: url("/img/background.jpg");
+        position: relative;
+        height: 75vh;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center; 
+        color: white;
+        max-width: 100%;
+        max-height: 500px;
+
+    }
+
+    .bar h1{
+        font-size: 20px;
+    }
+
+    #apresentacao{
+       height: 34px;
+    
+    }
+
+    .container img{
+        width: 400px;
+        max-width: 100%;
+    
+    }
+    /*Bot���o Pulsa*/
+.box-pulse { 
+    width:40%; 
+    margin:0 auto; padding:0 30px;
+    margin-bottom: 10px;
+    position: relative;
+    top: -60px;
+    text-decoration:none;
+    display: inline-block;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-animation: pulse 1s ease infinite;
+    -moz-animation: pulse 1s ease infinite;
+    -ms-animation: pulse 1s ease infinite;
+    -o-animation: pulse 1s ease infinite;
+    animation: pulse 1s ease infinite;
+}
+
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@-moz-keyframes pulse {
+  0% {
+    -moz-transform: scale(1);
+  }
+  25% {
+    -moz-transform: scale(1.1);
+  }
+  50% {
+    -moz-transform: scale(1);
+  }
+  100% {
+    -moz-transform: scale(1);
+  }
+}
+@-ms-keyframes pulse {
+  0% {
+    -ms-transform: scale(1);
+  }
+  25% {
+    -ms-transform: scale(1.1);
+  }
+  50% {
+    -ms-transform: scale(1);
+  }
+  100% {
+    -ms-transform: scale(1);
+  }
+}
+@-o-keyframes pulse {
+  
+  0% { -o-transform: scale(1); }
+  25% { -o-transform: scale(1.1); }
+  50% { -o-transform: scale(1); }
+  100% { -o-transform: scale(1); } 
+}
+@keyframes pulse { 
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+/*Bot���o Pulsa*/
+
+    #apresentacao h1{
+        text-align: center;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: #ff0800;
+        font-size: 18px;
+    }
+
+    #local{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        color: #ffffff;
+    }
+    #logo{
+        width: 90px;
+        position: relative;
+        top: 10px;
+        margin-bottom: 10px;
+    }
+    #loc{
+        width: 400px;
+        position: relative;
+        top: 20;
+        margin-bottom: 10px;
+    }
+
+    #baterias{
+        position: relative;
+        top: -15px;
+    }
+    .box-pulse{
+        position: relative;
+        top: -35px;
+    }
+    #ico{
+        width: 300px;
+        position: relative;
+        top: -25px;
+    }
+
+    .baterias{
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+    }
+    .conteudo1{
+        padding-bottom: 30px;
+        margin: 0px;
+        width: 200px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .conteudo2{
+
+        padding-bottom: 30px;
+        margin-left: 80px;
+        width: 200px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .conteudo3{
+        padding-bottom: 30px;
+        margin-left: 80px;
+        width: 200px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+
+    .conteudo h3{
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .botoes{
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .rodape{
+        padding-top: 20px;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+
+@media (max-width: 920px){
+    .bar{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        background: #0064c2;
+        color: white;
+        max-width: 100%;
+        max-height: 500px;
+        height: 24px;
+        text-align: center;
+    }
+    #principal{
+        background-image: url("/img/background.jpg");
+        position: relative;
+        height: 65vh;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center; 
+        color: white;
+        max-width: 100%;
+        max-height: 500px;
+
+    }
+
+    .bar h1{
+        font-size: 18px;
+    }
+
+    #apresentacao{
+       height: 24px;
+    
+    }
+
+    .container img{
+        width: 280px;
+        max-width: 100%;
+    
+    }
+    /*Bot���o Pulsa*/
+.box-pulse { 
+    width:35%; 
+    margin:0 auto; padding:0 30px;
+    margin-bottom: 10px;
+    position: relative;
+    top: -60px;
+    text-decoration:none;
+    display: inline-block;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-animation: pulse 1s ease infinite;
+    -moz-animation: pulse 1s ease infinite;
+    -ms-animation: pulse 1s ease infinite;
+    -o-animation: pulse 1s ease infinite;
+    animation: pulse 1s ease infinite;
+}
+
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.1);
+  }
+  50% {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+@-moz-keyframes pulse {
+  0% {
+    -moz-transform: scale(1);
+  }
+  25% {
+    -moz-transform: scale(1.1);
+  }
+  50% {
+    -moz-transform: scale(1);
+  }
+  100% {
+    -moz-transform: scale(1);
+  }
+}
+@-ms-keyframes pulse {
+  0% {
+    -ms-transform: scale(1);
+  }
+  25% {
+    -ms-transform: scale(1.1);
+  }
+  50% {
+    -ms-transform: scale(1);
+  }
+  100% {
+    -ms-transform: scale(1);
+  }
+}
+@-o-keyframes pulse {
+  
+  0% { -o-transform: scale(1); }
+  25% { -o-transform: scale(1.1); }
+  50% { -o-transform: scale(1); }
+  100% { -o-transform: scale(1); } 
+}
+@keyframes pulse { 
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+/*Bot���o Pulsa*/
+
+    #apresentacao h1{
+        text-align: center;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: #ff0800;
+        font-size: 18px;
+    }
+
+    #local{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 12px;
+        color: #ffffff;
+    }
+    #logo{
+        width: 60px;
+        position: relative;
+        top: 20px;
+        margin-bottom: 10px;
+    }
+    #loc{
+        width: 400px;
+        position: relative;
+        top: 20;
+        margin-bottom: 10px;
+    }
+
+    #baterias{
+        position: relative;
+        top: -15px;
+    }
+    .box-pulse{
+        position: relative;
+        top: -35px;
+    }
+    #ico{
+        width: 260px;
+        position: relative;
+        top: -25px;
+    }
+
+    .baterias{
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+    }
+    .conteudo1{
+        padding-bottom: 30px;
+        margin: 0px;
+        width: 200px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .conteudo2{
+
+        padding-bottom: 30px;
+        margin-left: 80px;
+        width: 200px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .conteudo3{
+        padding-bottom: 30px;
+        margin-left: 80px;
+        width: 200px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+
+    .conteudo h3{
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .botoes{
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .rodape{
+        padding-top: 20px;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media (max-width: 655px){
+    .bar{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        background: #0064c2;
+        color: white;
+        max-width: 100%;
+        max-height: 500px;
+        height: 34px;
+        text-align: center;
+    }
+    #principal{
+        background-image: url("/img/background-cel.jpg");
+        position: relative;
+        height: 65vh;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center; 
+        color: white;
+        max-width: 100%;
+        max-height: 500px;
+
+    }
+
+    .bar h1{
+        font-size: 14px;
+    }
+
+    #apresentacao{
+       height: 24px;
+    
+    }
+
+    .container img{
+        width: 300px;
+        max-width: 100%;
+    
+    }
+
+    #apresentacao h1{
+        text-align: center;
+        font-family: 'Barlow Condensed', sans-serif;
+        color: #ff0800;
+        font-size: 18px;
+    }
+
+    #local{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        color: #ffffff;
+    }
+    #logo{
+        width: 100px;
+        position: relative;
+        top: 10px;
+        margin-bottom: 10px;
+    }
+    #loc{
+        width: 400px;
+        position: relative;
+        top: 20;
+        margin-bottom: 10px;
+    }
+
+    #baterias{
+        position: relative;
+        top: -15px;
+    }
+    .box-pulse{
+        position: relative;
+        top: -35px;
+    }
+    #ico{
+        width: 360px;
+        position: relative;
+        top: -25px;
+    }
+
+    .baterias{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .conteudo1{
+        padding-bottom: 30px;
+        margin: 0px;
+        width: 200px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .conteudo2{
+        padding-bottom: 30px;
+        margin: 0px;
+        width: 200px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .conteudo3{
+        padding-bottom: 30px;
+        margin: 0px;
+        width: 200px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+
+    .conteudo h3{
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .botoes{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .rodape{
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+}
